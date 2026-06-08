@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jimin PARK | Industrial & Systems Engineering</title>
+    <meta
+      name="description"
+      content="Jimin Park's research portfolio on interactive scheduling, multi-objective scheduling, reinforcement learning, and LLM-assisted manufacturing systems."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Go to home">Jimin PARK</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section-shell">
+        <div class="portrait-wrap" aria-hidden="true">
+          <img
+            src="https://lh3.googleusercontent.com/sitesv/AA5AbUCdOZNvFvqmbUFAZaQen04hbPw-8OEb4U6-fn0kjrgkOkIhCE79IawwNSiWZO2y77gmMqq1rZtpIK7yiayfei4rn--caMG5N0I4aBREvUyzRlfuV-f2Ljx2owKOjLmnaMO4cDVDiFcSDPE6Kk-p_tpoTmXqkYHzMiHtU2kHtEQwXJZo7REsg_KPdWRzbd8s6aqRTswtYXq0bUG7I43FHSYKCPtE8NyZXForaa8=w1280"
+            alt="Portrait of Jimin Park"
+            class="portrait"
+          />
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">Ph.D. Candidate &middot; Industrial & Systems Engineering &middot; KAIST</p>
+          <h1>Jimin PARK</h1>
+          <p class="intro">
+            I work on interactive and multi-objective scheduling, with a focus
+            on reinforcement learning, large language models, and human-centered
+            manufacturing decision systems.
+          </p>
+          <ul class="social-links" aria-label="Profile links">
+            <li><a href="mailto:jiminpark@kaist.ac.kr">Email</a></li>
+            <li><a href="https://msslab.kaist.ac.kr/home" rel="noreferrer">MSSLAB</a></li>
+            <li><a href="https://www.linkedin.com/in/jimin-park-996a35309/" rel="noreferrer">LinkedIn</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about" class="about-band">
+        <div class="section-shell split-section">
+          <div>
+            <p class="eyebrow">About</p>
+            <h2>Scheduling research for intelligent, human-connected systems.</h2>
+          </div>
+          <div class="prose">
+            <p>
+              Jimin Park is a Ph.D. candidate in Industrial and Systems
+              Engineering at KAIST, working with MSSLAB. Her research centers
+              on technology and engineering methods that connect with people,
+              especially in production and scheduling environments.
+            </p>
+            <p>
+              Her current interests include interactive scheduling,
+              multi-objective scheduling, reinforcement learning for production
+              systems, and LLM-assisted decision support for manufacturing and
+              supply chain operations.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="research" class="section-shell research-section">
+        <div class="section-heading">
+          <p class="eyebrow">Research</p>
+          <h2>Research Landscape</h2>
+          <p>
+            Papers and projects are arranged by the methods, systems, and
+            industrial decision problems they connect.
+          </p>
+        </div>
+
+        <div class="topic-controls" id="topicControls" aria-label="Research topic filters"></div>
+
+        <div class="research-workspace">
+          <div class="map-scroll" aria-label="Interactive research landscape">
+            <div class="landscape-map" id="landscapeMap">
+              <svg
+                class="landscape-svg"
+                viewBox="0 0 1000 620"
+                preserveAspectRatio="xMidYMid meet"
+                role="img"
+                aria-label="Research topics connected to selected projects"
+              >
+                <g id="blobLayer"></g>
+                <g id="lineLayer"></g>
+                <g id="topicLayer"></g>
+              </svg>
+              <div class="node-layer" id="nodeLayer"></div>
+            </div>
+          </div>
+
+          <aside class="project-panel" id="projectPanel" aria-live="polite"></aside>
+        </div>
+      </section>
+
+      <section id="publications" class="publications-band">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="eyebrow">Selected Work</p>
+            <h2>Publications & Working Papers</h2>
+          </div>
+          <div class="publication-list" id="publicationList"></div>
+        </div>
+      </section>
+
+      <section class="section-shell timeline-section">
+        <div class="section-heading">
+          <p class="eyebrow">Timeline</p>
+          <h2>Education & Highlights</h2>
+        </div>
+        <ol class="timeline">
+          <li>
+            <span class="year">2023-2028</span>
+            <strong>Ph.D. Candidate, KAIST</strong>
+            <p>Industrial and Systems Engineering; advisor: Prof. Hyun-Jung Kim.</p>
+          </li>
+          <li>
+            <span class="year">2019-2023</span>
+            <strong>B.S. in Industrial and Systems Engineering, KAIST</strong>
+            <p>Minor in Science and Technology Policy; National Academic Excellence Scholarship.</p>
+          </li>
+          <li>
+            <span class="year">2016-2019</span>
+            <strong>Sejong Academy of Science and Arts</strong>
+            <p>Awarded the Jang Yeongsil Award for excellence in research.</p>
+          </li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Jimin PARK</p>
+      <a href="#home">Back to top</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
