@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ie-jiminpark.github.io/profile/sitemap.xml
+Sitemap: https://jiminpark-ie.github.io/profile/sitemap.xml
