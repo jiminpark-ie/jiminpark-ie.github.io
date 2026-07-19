@@ -1,27 +1,259 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{ral = {IEEE Robotics and Automation Letters (RA-L)}}
 
-@article{park2024example,
-  abbr      = {Journal},
-  title     = {Paper title goes here},
-  author    = {Park, Jimin and Coauthor, A.},
-  journal   = {Name of Journal or Conference},
-  year      = {2024},
-  selected  = {true},
-  abstract  = {Paste the paper abstract here. It shows when the reader expands the "Abstract" toggle on the publications page.},
-  website   = {/publications/example-paper/},
-  bibtex_show = {true}
+% =====================================================================
+% Working papers
+% =====================================================================
+
+@article{wp_grl_parallel,
+  pcat     = {working},
+  abbr     = {Working},
+  title    = {Graph-based Reinforcement Learning with Permutation-Invariant Resource Encoding for Resource-Constrained Unrelated Parallel Machine Scheduling},
+  author   = {Park, Jimin and Kim, Yongjae and Jang, Minju and Kim, Min Geon and Kim, Yeo Reum and Lee, Soyoung and Jo, Jihyun and Song, Iksoo and Park, Hyunsoon and Kim, Hyun-Jung},
+  year     = {2026},
+  note     = {Working paper. Collaborative work with LG Electronics.},
+  selected = {true},
+  website  = {/publications/rl-resource-parallel-machine/}
 }
 
-@inproceedings{park2023example,
-  abbr      = {Conf},
-  title     = {A second paper title},
-  author    = {Park, Jimin},
-  booktitle = {Proceedings of the Example Conference},
-  year      = {2023},
-  abstract  = {Short abstract for the second paper.},
-  website   = {/publications/second-paper/},
-  bibtex_show = {true}
+@article{wp_local_search_jss,
+  pcat    = {working},
+  abbr    = {Working},
+  title   = {Learning Local Search with Theoretical Indicators for Job Shop Scheduling},
+  author  = {Park, Jimin and Lee, Je-Hun and Kim, Hyun-Jung},
+  year    = {2026},
+  note    = {Working paper.},
+  website = {/publications/learning-local-search-jss/}
+}
+
+@article{wp_llm_algsel_fjsp,
+  pcat    = {working},
+  abbr    = {Working},
+  title   = {Fine-Tuning Large Language Models for Explainable Algorithm Selection in the Flexible Job Shop Scheduling Problem},
+  author  = {Park, Jimin and Faturrahman, Zuhdi and Kim, Hyun-Jung},
+  year    = {2026},
+  note    = {Working paper.},
+  website = {/publications/llm-explainable-algorithm-selection/}
+}
+
+% =====================================================================
+% Under review
+% =====================================================================
+
+@article{ur_mars,
+  pcat     = {review},
+  abbr     = {JMS},
+  title    = {MARS: Multi-Agent Rescheduling Framework with Large Language Models for Human-Centric Manufacturing},
+  author   = {Park, Jimin and Kim, Karen Seojin and Faturrahman, Zuhdi and Kim, Hyun-Jung},
+  journal  = {Journal of Manufacturing Systems (JMS)},
+  year     = {2026},
+  note     = {Under review. Submitted in 2026.},
+  selected = {true},
+  website  = {/publications/mars-multi-agent-rescheduling/}
+}
+
+@article{ur_batching_dispatching,
+  pcat    = {review},
+  abbr    = {C&IE},
+  title   = {Multi-Objective Batching-Dispatching Framework for Parallel Machine Scheduling with Job Families},
+  author  = {Kim, Karen Seojin and Jang, Minju and Lee, Sang-Wook and Park, Jimin and Kim, Hyun-Jung},
+  journal = {Computers and Industrial Engineering (C&IE)},
+  year    = {2025},
+  note    = {Under review. Submitted in 2025. Karen Seojin Kim and Minju Jang are co-first authors.},
+  website = {/publications/batching-dispatching-job-families/}
+}
+
+% =====================================================================
+% Journal papers
+% =====================================================================
+
+@article{jp_multiview_ctsp,
+  pcat     = {journal},
+  abbr     = {RA-L},
+  title    = {A Multi-View Attention-Based Encoder-Decoder Framework for Clustered Traveling Salesman Problem},
+  author   = {Park, Jimin and Choi, Inguk and Kim, Hyun-Jung},
+  journal  = ral,
+  volume   = {11},
+  number   = {1},
+  pages    = {137--144},
+  year     = {2026},
+  note     = {Jimin Park and Inguk Choi are co-first authors.},
+  selected = {true},
+  website  = {/publications/multi-view-attention-ctsp/}
+}
+
+% =====================================================================
+% Conference papers
+% =====================================================================
+
+@inproceedings{cp_apms_preference,
+  pcat      = {conf},
+  abbr      = {APMS},
+  title     = {LLM-assisted Rich Preference Elicitation for Multi-Objective Parallel Machine Scheduling},
+  author    = {Park, Jimin and Kim, Hyun-Jung},
+  booktitle = {International Conference on Advances in Production Management Systems (APMS)},
+  address   = {Bergamo, Italy},
+  year      = {2026},
+  note      = {Accepted. PDF available upon publication.},
+  website   = {/publications/apms-preference-elicitation/}
+}
+
+@inproceedings{cp_wsc_rag_supplychain,
+  pcat      = {conf},
+  abbr      = {WSC},
+  title     = {RAG-enhanced Query Disambiguation in Spreadsheet-based Semiconductor Supply Chain Management},
+  author    = {Park, Jimin and Choi, Inguk and Joo, S. and Kim, Y. and Oh, G. and Song, Y. and Kim, Hyun-Jung},
+  booktitle = {Winter Simulation Conference (WSC)},
+  address   = {Glasgow, Scotland},
+  year      = {2026},
+  note      = {Accepted. Collaborative work with Samsung Electronics. PDF available upon publication.},
+  website   = {/publications/wsc-rag-supply-chain/}
+}
+
+@inproceedings{cp_wsc_photolithography,
+  pcat      = {conf},
+  abbr      = {WSC},
+  title     = {Graph-based Reinforcement Learning for Dynamic Photolithography Scheduling},
+  author    = {Cho, S.-H. and Jeong, Sohyun and Park, Jimin and Choi, B. and Han, P. and Kim, Hyun-Jung},
+  booktitle = {Winter Simulation Conference (WSC)},
+  address   = {Seattle, USA},
+  year      = {2025},
+  note      = {Collaborative work with Samsung Display.},
+  website   = {/publications/wsc-photolithography-rl/}
+}
+
+@inproceedings{cp_apiems_algsel,
+  pcat      = {conf},
+  abbr      = {APIEMS},
+  title     = {Fine-Tuning Large Language Models for Algorithm Selection in the Flexible Job Shop Scheduling Problem},
+  author    = {Faturrahman, Zuhdi and Park, Jimin and Cho, S.-H. and Kim, Hyun-Jung},
+  booktitle = {Asia-Pacific Industrial Engineering and Management Systems Conference (APIEMS)},
+  address   = {Hangzhou, China},
+  year      = {2025},
+  note      = {Awarded Excellent Paper.},
+  website   = {/publications/apiems-algorithm-selection/}
+}
+
+% =====================================================================
+% Conference presentations only — International
+% =====================================================================
+
+@misc{pres_case_icl,
+  pcat      = {pres_intl},
+  abbr      = {CASE},
+  title     = {In-Context Learning for User-specified Constraint Enforcement in Discrete Event Simulation},
+  author    = {Park, Jimin and Kim, Karen Seojin and Faturrahman, Zuhdi and Kim, Hyun-Jung},
+  booktitle = {IEEE International Conference on Automation Science and Engineering (IEEE CASE)},
+  address   = {Los Angeles, USA},
+  year      = {2025}
+}
+
+@misc{pres_case_vnsrl,
+  pcat      = {pres_intl},
+  abbr      = {CASE},
+  title     = {Variable Neighborhood Search with Reinforcement Learning for Parallel Machine Batching Scheduling},
+  author    = {Park, Jimin and Lee, Sang-Wook and Jeong, Sohyun and Li, J. and Mun, S.-I. and Kim, Hyun-Jung},
+  booktitle = {IEEE International Conference on Automation Science and Engineering (IEEE CASE)},
+  address   = {Bari, Italy},
+  year      = {2024},
+  note      = {Collaborative work with LG Electronics.}
+}
+
+@misc{pres_iea_vnsrl,
+  pcat      = {pres_intl},
+  abbr      = {IEA},
+  title     = {A Hybrid VNS-RL Approach for Parallel Machine Batch Scheduling in Air Conditioner Manufacturing},
+  author    = {Jeong, Sohyun and Lee, Sang-Wook and Park, Jimin and Kim, Hyun-Jung},
+  booktitle = {22nd Triennial Congress of the International Ergonomics Association (IEA)},
+  address   = {Jeju, Korea},
+  year      = {2024}
+}
+
+@misc{pres_case_treedispatcher,
+  pcat      = {pres_intl},
+  abbr      = {CASE},
+  title     = {Tree-based Dispatcher for Job Shop Scheduling},
+  author    = {Lee, Je-Hun and Park, Jimin and Kim, Hyun-Jung},
+  booktitle = {IEEE International Conference on Automation Science and Engineering (IEEE CASE)},
+  address   = {Bari, Italy},
+  year      = {2024}
+}
+
+% =====================================================================
+% Conference presentations only — Domestic (KIIE)
+% =====================================================================
+
+@misc{pres_kiie_rag_2026,
+  pcat      = {pres_dom},
+  abbr      = {KIIE},
+  title     = {Natural Language-based Modification of Semiconductor Supply Management Spreadsheets using Retrieval-Augmented Generation},
+  author    = {Park, Jimin and Choi, Inguk and Joo, S. and Kim, Y. and Oh, G. and Song, Y. and Kim, Hyun-Jung},
+  booktitle = {Spring Conference of the Korea Institute of Industrial Engineers (KIIE)},
+  address   = {Gyeongju, South Korea},
+  year      = {2026}
+}
+
+@misc{pres_kiie_icl_2025,
+  pcat      = {pres_dom},
+  abbr      = {KIIE},
+  title     = {In-Context Learning for User-driven Rescheduling},
+  author    = {Park, Jimin and Kim, Karen Seojin and Faturrahman, Zuhdi and Kim, Hyun-Jung},
+  booktitle = {Autumn Conference of the Korea Institute of Industrial Engineers (KIIE)},
+  address   = {Daejeon, South Korea},
+  year      = {2025}
+}
+
+@misc{pres_kiie_algsel_2025,
+  pcat      = {pres_dom},
+  abbr      = {KIIE},
+  title     = {Fine-Tuning Large Language Models for Algorithm Selection in the Flexible Job Shop Scheduling Problem},
+  author    = {Faturrahman, Zuhdi and Park, Jimin and Kim, Hyun-Jung},
+  booktitle = {Autumn Conference of the Korea Institute of Industrial Engineers (KIIE)},
+  address   = {Daejeon, South Korea},
+  year      = {2025}
+}
+
+@misc{pres_kiie_batching_2025,
+  pcat      = {pres_dom},
+  abbr      = {KIIE},
+  title     = {A Multi-Objective Scheduling Framework for Batching and Dispatching in Parallel Machine Scheduling with Job Families},
+  author    = {Kim, Karen Seojin and Jang, Minju and Lee, Sang-Wook and Park, Jimin and Kim, Hyun-Jung},
+  booktitle = {Autumn Conference of the Korea Institute of Industrial Engineers (KIIE)},
+  address   = {Daejeon, South Korea},
+  year      = {2025},
+  note      = {Karen Seojin Kim and Minju Jang are co-first authors.}
+}
+
+@misc{pres_kiie_ctsp_2024,
+  pcat      = {pres_dom},
+  abbr      = {KIIE},
+  title     = {Deep Reinforcement Learning-based Encoder-Decoder Framework for the Clustered Traveling Salesman Problem},
+  author    = {Park, Jimin and Choi, Inguk and Cho, S.-H. and Kim, Hyun-Jung},
+  booktitle = {Autumn Conference of the Korea Institute of Industrial Engineers (KIIE)},
+  address   = {Seoul, South Korea},
+  year      = {2024},
+  note      = {Jimin Park and Inguk Choi are co-first authors.}
+}
+
+@misc{pres_kiie_batching_2024,
+  pcat      = {pres_dom},
+  abbr      = {KIIE},
+  title     = {Dynamic Batching for Multi-Objective Parallel Machine Scheduling},
+  author    = {Kim, Karen Seojin and Jang, Minju and Lee, Sang-Wook and Park, Jimin and Kim, Hyun-Jung},
+  booktitle = {Spring Conference of the Korea Institute of Industrial Engineers (KIIE)},
+  address   = {Yeosu, South Korea},
+  year      = {2024},
+  note      = {Karen Seojin Kim and Minju Jang are co-first authors.}
+}
+
+@misc{pres_kiie_routing_2023,
+  pcat      = {pres_dom},
+  abbr      = {KIIE},
+  title     = {Routing Algorithm for Enhancement of Semiconductor Chip Quality},
+  author    = {Joo, S. and Ahn, J. and Kim, H.-Y. and Park, Jimin and Kim, Hyun-Jung},
+  booktitle = {Autumn Conference of the Korea Institute of Industrial Engineers (KIIE)},
+  address   = {Ulsan, South Korea},
+  year      = {2023}
 }

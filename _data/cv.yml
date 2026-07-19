@@ -1,53 +1,105 @@
 cv:
   name: Jimin Park
-  label: Industrial Engineering Researcher
-  email: you@example.com
-  location: "[Your city, country]"
+  label: Ph.D. Candidate in Industrial and Systems Engineering
+  email: jiminpark@kaist.ac.kr
+  location: Daejeon, South Korea
   image: ""
-  summary: Researcher in industrial engineering focusing on manufacturing scheduling, optimization, and reinforcement learning.
+  summary: >-
+    Ph.D. Candidate at MSSLAB, Dept. of Industrial and Systems Engineering, KAIST
+    (advisor: Prof. Hyun-Jung Kim). Research interests: interactive scheduling,
+    multi-objective scheduling, and LLMs for scheduling.
 
   social_networks:
     - network: GitHub
       username: jiminpark-ie
-    - network: LinkedIn
-      username: example
 
   sections:
     Education:
-      - institution: "[University name]"
-        location: "[City, country]"
-        area: Industrial Engineering
-        studyType: "[Ph.D. / M.S. / B.S.]"
-        start_date: 20XX
-        end_date: 20XX
+      - studyType: Ph.D. in Industrial and Systems Engineering
+        institution: KAIST
+        area: "Advisor: Prof. Hyun-Jung Kim"
+        start_date: 2023
+        end_date: 2028 (Expected)
         highlights:
-          - "Advisor: [name] · Lab: [lab]"
-          - "Thesis / focus: [topic]"
+          - Government-sponsored Graduate Fellowship (full tuition and monthly research stipend).
 
-    Experience:
-      - company: "[Organization]"
-        position: "[Role]"
-        location: "[City, country]"
-        start_date: 20XX
-        end_date: 20XX
+      - studyType: B.S. in Industrial and Systems Engineering
+        institution: KAIST
+        area: Minor in Science and Technology Policy
+        start_date: 2019
+        end_date: 2023
         highlights:
-          - "What you worked on and your responsibilities."
+          - Excellence in Leadership and Volunteering.
+          - Recipient of the National Academic Excellence Scholarship in Science and Engineering (4-year merit-based full scholarship awarded by the Korean government).
 
-    Awards:
-      - title: "[Award name]"
-        date: 20XX
-        awarder: "[Awarding body]"
-        summary: "Short description of the award and the work it recognized."
+      - studyType: Sejong Academy of Science and Arts
+        start_date: 2016
+        end_date: 2019
+        highlights:
+          - Awarded the Jang Yeongsil Award for excellence in research.
 
-    Skills:
-      - name: Optimization & OR
-        icon: fa-solid fa-hashtag
-        keywords: "Mixed-integer programming, scheduling, Gurobi/CPLEX"
+    Honors and Awards:
+      - title: Excellent Paper Award, APIEMS 2025
+        date: Nov. 2025
+        awarder: APIEMS 2025
+        summary: Awarded for the research titled "Fine-Tuning Large Language Models for Algorithm Selection".
+      - title: Gold Prize (2nd place), National Defense Competition for Graduate Students
+        date: Nov. 2024
+        awarder: Korea National Defense University and KAIST
+        summary: Awarded for the research titled "UAV Mission Planning for Clustered Targets with Deep Reinforcement Learning".
+      - title: Best Counseling Assistant, KAIST
+        date: Dec. 2024
+        awarder: KAIST
+      - title: CoE Leadership Award, KAIST
+        date: Fall 2022
+        awarder: KAIST College of Engineering
+        summary: Honored as one of the top 11 undergraduate students with excellent achievements in research and leadership.
+      - title: Bronze Prize (5th place), 18th Industrial Engineering Project Competition for Undergraduate Students
+        date: Nov. 2022
+        awarder: Korea Institute of Industrial Engineers (KIIE)
+        summary: Awarded for the research titled "Operating Room Scheduling with Reinforcement Learning".
+      - title: Gold Prize (2nd place), 17th Industrial Engineering Project Competition for Undergraduate Students
+        date: Nov. 2021
+        awarder: Korea Institute of Industrial Engineers (KIIE)
+        summary: Awarded for the research titled "Visiting Nurse Scheduling with Reinforcement Learning".
+      - title: Best Prize (1st place), KAIST IE Frontier
+        date: Nov. 2021
+        awarder: Dept. of Industrial and Systems Engineering, KAIST
+        summary: Awarded for the research titled "Visiting Nurse Scheduling with Deep Q Learning".
 
-      - name: Machine Learning
-        icon: fa-solid fa-hashtag
-        keywords: "Reinforcement learning, PyTorch, graph neural networks"
+    Patents:
+      - bullet: >-
+          **Method and Device of Deep Reinforcement Learning-Based Reconnaissance Drone Path Planning for Clustered Targets.**
+          Hyun-Jung Kim, Jimin Park, Inguk Choi, Sohyun Jeong, and Ji-Yun Shin.
+          Korea Patent Application No. 10-2025-0154631, filed October 23, 2025 (Patent Pending).
 
-      - name: Programming
-        icon: fa-solid fa-hashtag
-        keywords: "Python, C++, Julia"
+    Teaching Experience:
+      - bullet: >-
+          **TA — Scheduling Theory and Application (IE.50036).** Teaching Assistant at KAIST
+          (Instructor: Prof. Hyun-Jung Kim). Spring 2025.
+      - bullet: >-
+          **Guest Lecture — Scheduling Theory and Application (IE.50036).** "Large Language Models for Scheduling",
+          invited by Prof. Hyun-Jung Kim. May 19, 2025.
+      - bullet: >-
+          **Guest Lecture — Production Management (IE.20021).** "Scheduling and Its Real-World Applications",
+          invited by Prof. Hyun-Jung Kim. Dec. 3, 2025.
+      - bullet: >-
+          **Mentor — KAIST Center for Gifted Education.** Mar. 2022 – Jul. 2022.
+
+    Invited Talks:
+      - bullet: >-
+          **AI-Enabled Scheduling for Manufacturing Systems.** Denmark–Korea Network on Industrial Green
+          Transition in Manufacturing, on behalf of Prof. Hyun-Jung Kim. Apr. 17, 2026.
+
+    Services:
+      - bullet: >-
+          **IEEE Robotics and Automation Society (RAS) Technical Committee Student Representative** —
+          Semiconductor Manufacturing Automation Cluster. Mar. 2026 – present.
+      - bullet: >-
+          **Counseling Assistant, Dept. of Industrial and Systems Engineering, KAIST** — provided campus-life
+          information and peer counseling for KAIST ISysE students; Head Counseling Assistant since Sep. 2023.
+          Mar. 2023 – present.
+      - bullet: >-
+          **Student Council Representative, Dept. of Industrial and Systems Engineering, KAIST** — managed
+          academic and non-academic events for ISysE undergraduates; Finance team lead from Mar. 2021 to Feb. 2022.
+          Mar. 2020 – Feb. 2022.

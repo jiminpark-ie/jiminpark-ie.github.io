@@ -2,10 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Research and applied projects — each page describes the work and the role I played.
+description: Industrial projects with LG Electronics, Samsung Electronics, Samsung Display, and SK Hynix — each page describes the work and the role I played.
 nav: true
 nav_order: 2
-display_categories: [research, applied]
 horizontal: false
 ---
 
