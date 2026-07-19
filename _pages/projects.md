@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Industrial projects with LG Electronics, Samsung Electronics, Samsung Display, and SK Hynix — each page describes the work and the role I played.
 nav: true

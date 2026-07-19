@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Papers, talks, and posters. Click a title's <b>Website</b> button to open its page with a summary and my role.
 nav: true
 nav_order: 1

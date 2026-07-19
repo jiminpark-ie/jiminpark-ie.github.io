@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Ph.D. Candidate in Industrial and Systems Engineering · MSSLAB, KAIST
 
@@ -26,6 +26,11 @@ latest_posts:
   scrollable: true
   limit: 3
 ---
+
+<!-- Capitalize the built-in home-page section headers (news / latest posts / selected publications) -->
+<style>
+  .post h2 { text-transform: capitalize; }
+</style>
 
 I am **Jimin Park**, a Ph.D. Candidate in Industrial and Systems Engineering at
 MSSLAB, KAIST, advised by Prof. Hyun-Jung Kim. I am passionate about technology
