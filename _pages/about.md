@@ -6,7 +6,7 @@ subtitle: Ph.D. Candidate in Industrial and Systems Engineering · MSSLAB, KAIST
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: ../profile.jpg # served from assets/profile.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>🎓 MSSLAB, Dept. of Industrial and Systems Engineering, KAIST</p>
@@ -22,7 +22,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: false
+  enabled: true
   scrollable: true
   limit: 3
 ---
