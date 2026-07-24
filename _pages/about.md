@@ -33,6 +33,11 @@ latest_posts:
     text-transform: capitalize;
   }
 
+  /* Profile info under the photo: use the site font instead of the theme's monospace default */
+  .profile .more-info {
+    font-family: inherit;
+  }
+
   {% comment %} Interactive scheduling demo styles disabled — delete this comment tag and its matching endcomment below to re-enable.
   .research-lab {
     --lab-accent: var(--global-theme-color);
