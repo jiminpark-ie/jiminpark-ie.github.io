@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Received the **Excellent Paper Award** at APIEMS 2025 for our work "Fine-Tuning Large Language Models for Algorithm Selection in the Flexible Job Shop Scheduling Problem" 🏆
+Received the **Excellent Paper Award** at APIEMS 2025 for our work _Fine-Tuning Large Language Models for Algorithm Selection in the Flexible Job Shop Scheduling Problem_. 🏆
