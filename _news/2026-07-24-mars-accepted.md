@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper **MARS: Multi-Agent Rescheduling Framework with LLMs for Human-Centric Manufacturing** was accepted to the **Journal of Manufacturing Systems**. 🎉
+Our paper _MARS: Multi-Agent Rescheduling Framework with Large Language Models for Human-Centric Manufacturing_ was accepted to the **Journal of Manufacturing Systems**. 🎉
