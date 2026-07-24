@@ -6,50 +6,53 @@ description: IEEE Robotics and Automation Letters (RA-L), vol. 11, no. 1, pp. 13
 
 **Authors:** Jimin Park†, Inguk Choi†, and Hyun-Jung Kim &nbsp;(†&nbsp;Co-first authors)
 **Venue:** IEEE Robotics and Automation Letters (IEEE RA-L), vol. 11, no. 1, pp. 137–144, 2026
-[[Paper]](https://ieeexplore.ieee.org/document/11248888)
+[[Paper]](https://ieeexplore.ieee.org/document/11248888) · [[Code]](https://github.com/Ingukchoi/MultiViewAttentionCluTSP)
 
 ---
 
 ### TL;DR
 
-The **Clustered Traveling Salesman Problem (CTSP)** is a TSP variant where cities
-are grouped into clusters and all cities of a cluster must be visited
-consecutively before moving on. We propose a **deep-learning construction method
-— an attention-based encoder–decoder** that reads a CTSP instance from multiple
-views and builds high-quality tours in a single fast pass, without a hand-crafted
-solver.
+Autonomous mobile robots often serve **grouped** delivery points — a setting
+captured by the **Clustered Traveling Salesman Problem (CluTSP)**, where all nodes
+in a cluster must be visited consecutively. CluTSP couples two interdependent
+subproblems: **inter-cluster routing** (which cluster to visit next) and
+**intra-cluster routing** (the path inside a cluster). We train a single **deep
+reinforcement learning** agent with a **multi-view attention encoder-decoder**
+that solves both at once, in one fast construction pass.
 
 ### The problem
 
-CTSP shows up whenever visits are naturally zoned — warehouse order picking,
-PCB/board manufacturing, and zoned last-mile delivery. The clustering constraint
-makes classical TSP heuristics awkward: a good tour has to reason about both the
-**order of clusters** and the **order of cities inside each cluster** at the same
-time, and exact solvers scale poorly.
+CluTSP arises naturally in last-mile delivery, automated warehouse routing,
+emergency response, and drone reconnaissance, where visits are grouped into zones.
+It is NP-hard, and existing **decomposition-based** methods handle the inter- and
+intra-cluster subproblems _separately_ — which limits information sharing between
+global and local decisions, needs long computation (each subproblem is itself
+NP-hard), and relies on hand-designed heuristics.
 
 ### The approach
 
-- **Multi-view attention** — the encoder represents the instance from more than
-  one perspective (e.g. city-level and cluster-level structure), so the model can
-  weigh intra-cluster and inter-cluster relationships together.
-- **Encoder–decoder construction** — the decoder builds the tour step by step,
-  attending to the encoded views to pick the next city while respecting the
-  clustering constraint.
-- **Learned, not tuned** — the policy is trained with deep reinforcement learning,
-  so it generalizes across instances and produces tours quickly at inference.
+- **Multi-view GNN encoder** — a **global-view** encoder over the fully-connected
+  graph captures inter-cluster (global) structure, while a **local-view** encoder
+  over the intra-cluster graph captures local neighborhoods; the two views are
+  fused (GATv2-based). Feature augmentation over eight rotations/flips yields
+  position-invariant node embeddings.
+- **Collaborative decoder** — a **Global Guiding Module** selects the next cluster
+  and a **Local Routing Module** builds the intra-cluster path. They cooperate to
+  construct the whole tour in a single one-shot pass, rather than solving each
+  subproblem in isolation.
+- **Learned end-to-end** — trained with REINFORCE and a shared baseline.
 
-### Why it matters
+### Results
 
-A single learned model produces competitive CTSP tours far faster than exact
-optimization, and adapts across problem sizes — useful for real, time-constrained
-routing in robotics and logistics.
+The framework **significantly outperforms** metaheuristics and prior learning-based
+methods within a short computation time, and — trained only on small instances —
+**generalizes to much larger CluTSP instances without retraining**. Ablation
+studies confirm the value of the multi-view encoder and collaborative decoder. To
+our knowledge, this is the first DRL approach for cluster-constrained routing.
 
 ---
 
 ### My Role
 
-I am a **co-first author** of this work, jointly leading the method design,
-implementation, and experiments.
-
-> ✍️ Feel free to refine this summary with the exact abstract, the key results
-> (e.g. optimality gap / runtime vs. baselines), and your specific contribution.
+I am a **co-first author** of this work, jointly leading the framework design
+(multi-view encoder and collaborative decoder), implementation, and experiments.
