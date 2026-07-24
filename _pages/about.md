@@ -523,12 +523,8 @@ I am **Jimin Park**, a Ph.D. Candidate in Industrial and Systems Engineering at
 MSSLAB, KAIST, advised by Prof. Hyun-Jung Kim. I am passionate about technology
 and engineering that connects with people, which eventually led me to this
 beautiful world of industrial engineering.
-
-My research develops scheduling and optimization methods for manufacturing and
-service systems, combining **reinforcement learning** and **large language
-models** with classical operations research — often in close collaboration with
-industry partners such as LG Electronics, Samsung Electronics, Samsung Display,
-and SK Hynix.
+My research interests include **interactive scheduling**, **multi-objective scheduling**, and **LLMs for scheduling**,
+especially in manufacturing, though not limited to it.
 
 {% comment %} Interactive scheduling demo disabled — delete this comment tag and its matching endcomment below to re-enable.
 <section class="research-lab" aria-labelledby="research-lab-title">
@@ -851,4 +847,4 @@ and SK Hynix.
 See my [publications](/publications/) for papers and talks, and the
 [projects](/projects/) page for the industrial projects I worked on and the role
 I played in each. A full record of education, awards, teaching, talks, and
-service is on my [CV](/cv/).
+service is on my [CV](/cv/). Please feel free to reach out to me if you have any interests.
