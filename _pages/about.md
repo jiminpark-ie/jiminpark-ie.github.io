@@ -520,7 +520,7 @@ latest_posts:
 </style>
 
 I am **Jimin Park**, a Ph.D. Candidate in Industrial and Systems Engineering at
-MSSLAB, KAIST, advised by Prof. Hyun-Jung Kim. I am passionate about technology
+MSSLAB, KAIST, advised by [Prof. Hyun-Jung Kim](https://msslab.kaist.ac.kr/). I am passionate about technology
 and engineering that connects with people, which eventually led me to this
 beautiful world of industrial engineering.
 My research interests include **interactive scheduling**, **multi-objective scheduling**, and **LLMs for scheduling**,
