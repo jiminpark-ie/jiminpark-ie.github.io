@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Gave an invited talk, _AI-Enabled Scheduling for Manufacturing Systems_, at the Denmark–Korea Network on Industrial Green Transition in Manufacturing. 🇩🇰🇰🇷
+Gave an invited talk, _AI-Enabled Scheduling for Manufacturing Systems_, at the Denmark–Korea Network on Industrial Green Transition in Manufacturing, on behalf of Prof. Hyun-Jung Kim. 🇩🇰🇰🇷
