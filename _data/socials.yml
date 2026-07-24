@@ -1,10 +1,7 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-# cv_pdf: /assets/pdf/your_cv.pdf # uncomment and point to your CV PDF once you add one
 email: jiminpark@kaist.ac.kr # your email address
-github_username: jiminpark-ie # your GitHub username
-linkedin_username: jimin-park-996a35309 # TODO: add the part after linkedin.com/in/ to show the LinkedIn icon
-scholar_userid: 0JyR6MYAAAAJ&hl=en
-# orcid_id: # your ORCID iD
-rss_icon: false # RSS icon hidden (no blog); set to true to show it
+github_username: jiminpark-ie # https://github.com/jiminpark-ie
+linkedin_username: jimin-park-996a35309 # https://www.linkedin.com/in/jimin-park-996a35309/
+scholar_userid: 0JyR6MYAAAAJ # https://scholar.google.com/citations?user=0JyR6MYAAAAJ
