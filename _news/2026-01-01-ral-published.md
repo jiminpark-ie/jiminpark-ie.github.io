@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper _A Multi-View Attention-Based Encoder-Decoder Framework for the Clustered Traveling Salesman Problem_ appeared in **IEEE RA-L**. 🎉
+Our paper [A Multi-View Attention-Based Encoder-Decoder Framework for the Clustered Traveling Salesman Problem](https://ieeexplore.ieee.org/document/11248888) is published in **IEEE RA-L**. 🎉
