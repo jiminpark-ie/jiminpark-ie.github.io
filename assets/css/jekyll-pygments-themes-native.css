@@ -49,22 +49,10 @@
 } /* Generic.Inserted */
 .highlight .go {
   color: #cccccc;
-} /* Generic.Output */ /* Generic.Prompt */
-.highlight .gs {
-  color: #d0d0d0;
-  font-weight: bold;
-} /* Generic.Strong */
-.highlight .gu {
-  color: #ffffff;
-  text-decoration: underline;
-} /* Generic.Subheading */
+} /* Generic.Output */ /* Generic.Prompt */ /* Generic.Strong */ /* Generic.Subheading */
 .highlight .gt {
   color: #d22323;
-} /* Generic.Traceback */
-.highlight .kc {
-  color: #6ab825;
-  font-weight: bold;
-} /* Keyword.Constant */ /* Keyword.Declaration */ /* Keyword.Namespace */ /* Keyword.Pseudo */
+} /* Generic.Traceback */ /* Keyword.Constant */ /* Keyword.Declaration */ /* Keyword.Namespace */ /* Keyword.Pseudo */
 .highlight .kr {
   color: #6ab825;
   font-weight: bold;
@@ -99,11 +87,7 @@
 } /* Name.Exception */ /* Name.Function */
 .highlight .nl {
   color: #d0d0d0;
-} /* Name.Label */
-.highlight .nn {
-  color: #447fcf;
-  text-decoration: underline;
-} /* Name.Namespace */ /* Name.Other */
+} /* Name.Label */ /* Name.Namespace */ /* Name.Other */
 .highlight .py {
   color: #d0d0d0;
 } /* Name.Property */
