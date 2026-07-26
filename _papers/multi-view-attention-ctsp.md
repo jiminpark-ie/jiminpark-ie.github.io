@@ -49,10 +49,3 @@ methods within a short computation time, and — trained only on small instances
 **generalizes to much larger CluTSP instances without retraining**. Ablation
 studies confirm the value of the multi-view encoder and collaborative decoder. To
 our knowledge, this is the first DRL approach for cluster-constrained routing.
-
----
-
-### My Role
-
-I am a **co-first author** of this work, jointly leading the framework design
-(multi-view encoder and collaborative decoder), implementation, and experiments.
