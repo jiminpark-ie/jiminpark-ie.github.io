@@ -185,8 +185,8 @@ collections:
     defaults:
       layout: post
     output: true
-  projects:
-    output: true
+  # projects: # HIDDEN FOR NOW — uncomment these two lines (and set nav: true in _pages/projects.md) to re-enable the Projects section
+  #   output: true
   papers:
     output: true
     permalink: /publications/:name/

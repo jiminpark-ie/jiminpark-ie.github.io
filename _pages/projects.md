@@ -3,10 +3,18 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Industrial projects with LG Electronics, Samsung Electronics, Samsung Display, and SK Hynix — each page describes the work and the role I played.
-nav: true
+nav: false
 nav_order: 2
 horizontal: false
 ---
+
+{% comment %} PROJECTS SECTION HIDDEN FOR NOW.
+To bring it back: (1) change `nav: false` to `nav: true` above, (2) set
+`projects.output` back to `true` in \_config.yml, and (3) delete this comment
+opener and the matching closer at the very end of this file.
+{% endcomment %}
+
+{% comment %}
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -62,3 +70,4 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
+{% endcomment %}

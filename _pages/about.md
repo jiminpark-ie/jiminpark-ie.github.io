@@ -844,7 +844,6 @@ especially in manufacturing, though not limited to it.
 
 ### Explore
 
-See my [publications](/publications/) for papers and talks, and the
-[projects](/projects/) page for the industrial projects I worked on and the role
-I played in each. A full record of education, awards, teaching, talks, and
-service is on my [CV](/cv/). Please feel free to reach out to me if you have any interests.
+See my [publications](/publications/) for papers and talks. A full record of
+education, awards, teaching, talks, and service is on my [CV](/cv/). Please feel
+free to reach out to me if you have any interests.

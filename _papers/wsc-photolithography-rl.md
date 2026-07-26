@@ -47,4 +47,3 @@ lines.
 
 Across varied scenarios, the method delivers **consistent and robust** scheduling
 performance, making it a practical solution for real display-manufacturing lines.
-
