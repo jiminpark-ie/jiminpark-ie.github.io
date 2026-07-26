@@ -4,8 +4,8 @@ title: A Multi-View Attention-Based Encoder-Decoder Framework for Clustered Trav
 description: IEEE Robotics and Automation Letters (RA-L), vol. 11, no. 1, pp. 137–144, 2026
 ---
 
-**Authors:** Jimin Park†, Inguk Choi†, and Hyun-Jung Kim &nbsp;(†&nbsp;Co-first authors)
-**Venue:** IEEE Robotics and Automation Letters (IEEE RA-L), vol. 11, no. 1, pp. 137–144, 2026
+**Authors:** Jimin Park†, Inguk Choi†, and Hyun-Jung Kim &nbsp;(†&nbsp;Co-first authors)\n
+**Journal:** IEEE Robotics and Automation Letters (IEEE RA-L), vol. 11, no. 1, pp. 137–144, 2026
 [[Paper]](https://ieeexplore.ieee.org/document/11248888) · [[Code]](https://github.com/Ingukchoi/MultiViewAttentionCluTSP)
 
 ---
