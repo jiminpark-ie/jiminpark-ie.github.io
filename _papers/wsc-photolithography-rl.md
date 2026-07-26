@@ -4,8 +4,8 @@ title: Graph-based Reinforcement Learning for Dynamic Photolithography Schedulin
 description: WSC 2025, Seattle, USA · Collaborative work with Samsung Display
 ---
 
-**Authors:** Sang-Hyun Cho, Sohyun Jeong, Jimin Park, Boyoon Choi, Paul Han, and Hyun-Jung Kim
-**Venue:** Proceedings of the 2025 Winter Simulation Conference (WSC), Seattle, USA
+**Authors:** Sang-Hyun Cho, Sohyun Jeong, Jimin Park, Boyoon Choi, Paul Han, and Hyun-Jung Kim<br/>
+**Venue:** Proceedings of the 2025 Winter Simulation Conference (WSC), Seattle, USA<br/>
 **Collaboration:** Samsung Display
 
 ---
