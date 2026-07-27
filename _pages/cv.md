@@ -2,13 +2,29 @@
 layout: page
 permalink: /cv/
 title: CV
-description: A short narrative of my education, awards, patent, teaching, talks, and service.
+description: My curriculum vitae — the PDF is embedded below, with a text summary underneath.
 nav: true
 nav_order: 3
 ---
 
-<!-- Written as continuous prose. To add a downloadable PDF, drop it in
-     assets/pdf/ and link it here, e.g. [Download CV](/assets/pdf/your_cv.pdf). -->
+<!-- To update the CV, replace the Google Drive file (or change the two links
+     below): the /view link is the download button, the /preview link is embedded. -->
+
+<p>
+  <a href="https://drive.google.com/file/d/1EuUx7ZuZVdzM8y4FBLPMvbnXHwKk7ArQ/view" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0" role="button">
+    <i class="fa-solid fa-file-pdf"></i>&nbsp;Open / download CV (PDF)
+  </a>
+</p>
+
+<iframe
+  src="https://drive.google.com/file/d/1EuUx7ZuZVdzM8y4FBLPMvbnXHwKk7ArQ/preview"
+  title="Jimin Park — Curriculum Vitae (PDF)"
+  style="width: 100%; height: 85vh; min-height: 600px; border: 1px solid var(--global-divider-color); border-radius: 8px;"
+  allow="autoplay"
+  loading="lazy"
+></iframe>
+
+---
 
 I am a Ph.D. Candidate in Industrial and Systems Engineering at MSSLAB, KAIST,
 advised by Prof. Hyun-Jung Kim (Mar. 2023 – Feb. 2028, expected), supported by a

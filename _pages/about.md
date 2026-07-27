@@ -845,5 +845,6 @@ especially in manufacturing, though not limited to it.
 ### Explore
 
 See my [publications](/publications/) for papers and talks. A full record of
-education, awards, teaching, talks, and service is on my [CV](/cv/). Please feel
-free to reach out to me if you have any interests.
+education, awards, teaching, talks, and service is on my [CV](/cv/) — you can also
+[download it as a PDF](https://drive.google.com/file/d/1EuUx7ZuZVdzM8y4FBLPMvbnXHwKk7ArQ/view).
+Please feel free to reach out to me if you have any interests.
