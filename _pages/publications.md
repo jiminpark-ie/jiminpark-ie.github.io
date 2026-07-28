@@ -48,3 +48,42 @@ nav_order: 1
 </div>
 
 </div>
+
+<!-- Publication buttons: add a "Paper" link and set button order for specific papers.
+     Edit PUB_BUTTONS below — the key is the citation key in _bibliography/papers.bib:
+       paper: "URL"  → adds a Paper button linking to that URL
+       order: [...]  → left-to-right order (labels: Paper, Website, Code, PDF, HTML, DOI, ...) -->
+<script>
+  (function () {
+    const PUB_BUTTONS = {
+      jp_multiview_ctsp: { paper: "https://ieeexplore.ieee.org/document/11248888", order: ["Paper", "Website", "Code"] },
+      ur_mars: { order: ["Website", "Code"] },
+    };
+    function applyPubButtons() {
+      Object.keys(PUB_BUTTONS).forEach(function (key) {
+        var cfg = PUB_BUTTONS[key];
+        var entry = document.getElementById(key);
+        if (!entry) return;
+        var links = entry.querySelector(".links");
+        if (!links) return;
+        if (cfg.paper && !Array.prototype.some.call(links.querySelectorAll("a"), function (a) { return a.textContent.trim() === "Paper"; })) {
+          var a = document.createElement("a");
+          a.className = "btn btn-sm z-depth-0";
+          a.setAttribute("role", "button");
+          a.href = cfg.paper;
+          a.target = "_blank";
+          a.rel = "external nofollow noopener";
+          a.textContent = "Paper";
+          links.appendChild(a);
+        }
+        if (cfg.order) {
+          var byLabel = {};
+          Array.prototype.forEach.call(links.querySelectorAll("a"), function (b) { byLabel[b.textContent.trim()] = b; });
+          cfg.order.forEach(function (label) { if (byLabel[label]) links.appendChild(byLabel[label]); });
+        }
+      });
+    }
+    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", applyPubButtons);
+    else applyPubButtons();
+  })();
+</script>

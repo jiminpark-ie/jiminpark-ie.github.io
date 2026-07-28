@@ -848,3 +848,40 @@ See my [publications](/publications/) for papers and talks. A full record of
 education, awards, teaching, talks, and service is on my [CV](/cv/) — you can also
 [download it as a PDF](https://drive.google.com/file/d/1EuUx7ZuZVdzM8y4FBLPMvbnXHwKk7ArQ/view).
 Please feel free to reach out to me if you have any interests.
+
+<!-- Selected Publications buttons: add a "Paper" link and set button order for
+     specific papers (keep this in sync with the same map in _pages/publications.md). -->
+<script>
+  (function () {
+    const PUB_BUTTONS = {
+      jp_multiview_ctsp: { paper: "https://ieeexplore.ieee.org/document/11248888", order: ["Paper", "Website", "Code"] },
+      ur_mars: { order: ["Website", "Code"] },
+    };
+    function applyPubButtons() {
+      Object.keys(PUB_BUTTONS).forEach(function (key) {
+        var cfg = PUB_BUTTONS[key];
+        var entry = document.getElementById(key);
+        if (!entry) return;
+        var links = entry.querySelector(".links");
+        if (!links) return;
+        if (cfg.paper && !Array.prototype.some.call(links.querySelectorAll("a"), function (a) { return a.textContent.trim() === "Paper"; })) {
+          var a = document.createElement("a");
+          a.className = "btn btn-sm z-depth-0";
+          a.setAttribute("role", "button");
+          a.href = cfg.paper;
+          a.target = "_blank";
+          a.rel = "external nofollow noopener";
+          a.textContent = "Paper";
+          links.appendChild(a);
+        }
+        if (cfg.order) {
+          var byLabel = {};
+          Array.prototype.forEach.call(links.querySelectorAll("a"), function (b) { byLabel[b.textContent.trim()] = b; });
+          cfg.order.forEach(function (label) { if (byLabel[label]) links.appendChild(byLabel[label]); });
+        }
+      });
+    }
+    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", applyPubButtons);
+    else applyPubButtons();
+  })();
+</script>
