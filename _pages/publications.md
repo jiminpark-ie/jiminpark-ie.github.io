@@ -57,7 +57,7 @@ nav_order: 1
   (function () {
     const PUB_BUTTONS = {
       jp_multiview_ctsp: { paper: "https://ieeexplore.ieee.org/document/11248888", order: ["Paper", "Website", "Code"] },
-      ur_mars: { order: ["Website", "Code"] },
+      ur_mars: { paper: "https://www.sciencedirect.com/science/article/pii/S0278612526001998", order: ["Paper", "Website", "Code"] },
     };
     function applyPubButtons() {
       Object.keys(PUB_BUTTONS).forEach(function (key) {
