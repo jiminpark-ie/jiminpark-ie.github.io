@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited to Denmark as part of the [Danish Manufacturing Ecosystem (MADE)](https://www.made.dk/en/) Global Innovation Network Programme (GINP) partnership. 🇩🇰🤝
+Invited to Denmark by the Danish Government as part of the [Danish Manufacturing Ecosystem (MADE)](https://www.made.dk/en/) Global Innovation Network Programme (GINP) partnership. 🇩🇰🤝
