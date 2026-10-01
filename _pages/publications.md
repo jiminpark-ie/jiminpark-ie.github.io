@@ -60,7 +60,7 @@ nav_order: 1
       ur_mars: { paper: "https://www.sciencedirect.com/science/article/pii/S0278612526001998", order: ["Paper", "Website", "Code"] },
       ur_batching_dispatching: { paper: "https://doi.org/10.1016/j.cie.2026.112320", order: ["Paper"] },
       cp_wsc_photolithography: { paper: "https://ieeexplore.ieee.org/abstract/document/11338960", order: ["Paper", "Website"] },
-      cp_apms_preference: {paper: "https://doi.org/10.1007/978-3-032-38614-4_26", order: ["paper:]},
+      cp_apms_preference: {paper: "https://doi.org/10.1007/978-3-032-38614-4_26", order: ["Paper"]},
     };
     function applyPubButtons() {
       Object.keys(PUB_BUTTONS).forEach(function (key) {
